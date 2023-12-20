@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Weather App</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>Weather App</h1>
+<form id="searchForm">
+<input type="text" name="city" placeholder="Enter city name">
+<button type="submit">Search</button>
+</form>
+<div id="weatherInfo"></div>
+</div>
+<style>
+    .container { max-width:
+500px;margin:
+0 auto; text-align: center;
+}
+h1 {
+font-size: 3em;
+}
+form input[type=text] { padding: 10px; font-size:
+1.2em;border:
+none;
+border-bottom: 2px solid #ccc;
+}
+form button { padding:
+10px; font-size: 1.2em;
+background-color: #4CAF50;color: white; border:
+none; cursor:
+pointer;
+transition: background-color 0.3s;
+}
+form button:hover { background-color:
+#3e8e41;
+}
+#weatherInfo { margin-top:
+20px;font-size: 1.2em;
+}
+
+</style>
+<script src="script.js"></script>
+</body>
+</html>
